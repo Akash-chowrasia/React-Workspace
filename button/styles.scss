@@ -1,0 +1,55 @@
+.button {
+  width: 270px;
+  border: none;
+  background: #ffb600;
+  box-shadow: 0px 24px 30px rgba(255, 182, 0, 0.4);
+  border-radius: 38px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media(max-width:1202px){
+  .button{
+    padding-bottom: 10px;
+  }
+}
+
+@media(max-width: 970px){
+  .button{
+    width: 200px;
+    box-shadow: 0px 15px 20px rgba(255, 182, 0, 0.4);
+    border-radius: 32px;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+}
+
+@media(max-width: 767px){
+  .button{
+    font-size: 20px;
+    width: 270px;
+  }
+}
+
+@media(min-width: 2400px){
+  .button{
+    padding-left: 5px;
+  }
+}

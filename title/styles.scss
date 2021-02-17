@@ -1,0 +1,21 @@
+.title {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: #036d47;
+}
+
+@media(max-width:970px){
+  .title{
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+
+@media(max-width:767px){
+  .title{
+
+  }
+}

@@ -1,0 +1,68 @@
+.para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: auto;
+}
+
+.bold-para {
+  font-weight: 500;
+  padding-top: 60px;
+  width: 100%;
+}
+
+.fontSize {
+  font-size: 16px;
+}
+
+@media (max-width: 1680px) {
+  .fontSize {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .fontSize {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1202px) {
+  .fontSize {
+    font-size: 10px;
+  }
+  .bold-para {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 970px) {
+  .bold-para {
+    padding-top: 60px;
+  }
+  .para{
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .fontSize{
+    font-size: 8px;
+  }
+}
+
+@media(max-width:767px){
+  .para{
+    text-align: justify;
+    font-size: 20px;
+  }
+  .fontSize{
+    font-size: 12px;
+  }
+}
